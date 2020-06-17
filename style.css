@@ -1,0 +1,45 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  border: border-box;
+  min-width: 290px;
+}
+
+#hero-text {
+  font-size: 25px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.heading{
+  font-size: 22px;
+  font-weight: 650;
+}
+
+@media screen and (max-width: 990px) and (min-width: 485px) {
+  #hero-text{
+    font-size: 18px ;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  body{
+    font-size:90%
+  }
+  #navbar-name {
+    font-size: 30px;
+  }
+
+  #menu {
+    font-size: 15px;
+  }
+
+  #hero-text {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .heading{
+    font-size: 18px;
+  }
+
+}
