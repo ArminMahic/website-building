@@ -15,6 +15,10 @@ body {
   font-weight: 650;
 }
 
+.footer{
+  background-color: black;
+}
+
 @media screen and (max-width: 990px) and (min-width: 485px) {
   #hero-text{
     font-size: 18px ;
